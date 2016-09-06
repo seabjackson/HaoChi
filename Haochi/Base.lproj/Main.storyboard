@@ -94,7 +94,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1123" y="295"/>
+            <point key="canvasLocation" x="1134" y="285"/>
         </scene>
         <!--Add Food-->
         <scene sceneID="Akh-4Y-Z3s">
@@ -262,7 +262,11 @@
                         </connections>
                     </tableView>
                     <navigationItem key="navigationItem" title="Add Food" id="emQ-7k-sDK">
-                        <barButtonItem key="rightBarButtonItem" systemItem="camera" id="zGH-HJ-k3C"/>
+                        <barButtonItem key="rightBarButtonItem" systemItem="camera" id="zGH-HJ-k3C">
+                            <connections>
+                                <action selector="addPhoto:" destination="BRc-PZ-15J" id="7re-Ve-07J"/>
+                            </connections>
+                        </barButtonItem>
                     </navigationItem>
                     <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
                     <size key="freeformSize" width="600" height="900"/>
